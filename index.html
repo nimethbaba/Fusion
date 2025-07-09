@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimeth C. - Fusion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/Automation.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_circle_right" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    
+</head>
+<body>
+    <!--Preloader-->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+
+    
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <img src="assets/Automation.png" alt="Fusion Logo" class="logo">
+                Fusion
+            </div>
+            <div class="hamburger-menu" id="hamburger-menu">
+                &#9776;
+            </div>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="about.html">About & Contact</a></li>
+                    <li class="email-contact">
+                        <a href="mailto:hello@andrew.design" class="email-link">nimethsiir@gmail.com</a>
+                        <button class="contact-btn">Contact me</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <img src="assets/profile.jpeg" alt="Nimeth C." class="profile-image">
+                    </div>
+                    <div class="profile-info">
+                        <h2>Nimeth C.</h2>
+                        <p>Web-designer, developer</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="https://placehold.co/20x20/000000/FFFFFF?text=X" alt="X"></a>
+                            <a href="#"><img src="https://placehold.co/20x20/000000/FFFFFF?text=IG" alt="Instagram"></a>
+                            <a href="#"><img src="https://placehold.co/20x20/000000/FFFFFF?text=Web" alt="Website"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="availability">
+                    <span class="dot"></span> Available for freelance
+                </div>
+                <h1>Hi! I'm <span class="highlight-box">Nimeth C.</span> a <span class="highlight-box">Digital Designer</span> from <span class="highlight-box">NP</span> turning your ideas into pixel-perfect realities</h1>
+                <p class="experience">(2025 - PRESENT)</p>
+                <p class="description">I'm dedicated to crafting websites that bring your ideas to life, combining design and development to deliver fast, impactful results.</p>
+                <button class="see-what-i-can-do">
+                    See what i can do
+                    <span class="arrow-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="background-pattern"></div>
+        </section>
+
+        <!-- Footer-like section for "Unlock at $0" and "Made in Framer" -->
+        <div class="bottom-right-box">
+            <div class="unlock-box">
+                Available on 
+                <span class="lock-icon"><i class="fa-brands fa-github"></i></span>
+            </div>
+            <div class="framer-box">
+                <img src="assets/code.png" alt="Framer Logo"> Made in VS
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main section -->
+<section class="main-section">
+    <!-- Sliding Statistics Section -->
+    <div class="sliding-stats-container">
+        <div class="sliding-stats-track" id="slidingStatsTrack">
+            <!-- Content for the slider (will be duplicated by JS for seamless loop) -->
+            <div class="stat-item">
+                <span class="stat-value">95%</span>
+                <span class="stat-label">client retention rate</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">18</span>
+                <span class="stat-label">satisfied clients</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">14</span>
+                <span class="stat-label">projects finished</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">8+</span>
+                <span class="stat-label">years in business</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Hero Content Section -->
+    <div class="hero-content">
+        <p class="featured-projects-label"><span>&#x2022;</span> [01] &mdash; Featured projects</p>
+        <h1 class="main-heading">I blend creativity with<br>technical expertise</h1>
+        <a href="#" class="button">
+            Become a client
+            <span class="arrow-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+        </a>
+    </div>
+</section>
+
+<!-- Project section -->
+
+<section class="projects-section">
+    <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <a href="#" class="project-card">
+            <div class="project-meta">
+                <span class="project-type">[Pottery artist portfolio]</span>
+                <span class="project-date">5/31/24</span>
+            </div>
+            <h3 class="project-title">SilverLynx Technologies</h3>
+            <p class="project-description">Web design & Web development</p>
+            <div class="project-image-container">
+                <!-- Using a placeholder image for demonstration -->
+                <img src="assets/image_1.avif" alt="Project Image 1" class="project-image">
+            </div>
+        </a>
+
+        <!-- Project Card 2 -->
+        <a href="#" class="project-card">
+            <div class="project-meta">
+                <span class="project-type">[Artist Portfolio]</span>
+                <span class="project-date">8/8/24</span>
+            </div>
+            <h3 class="project-title">Evergreen Solutions</h3>
+            <p class="project-description">Web design & Web development</p>
+            <div class="project-image-container">
+                <!-- Using a placeholder image for demonstration -->
+                <img src="assets/image_2.jpg" alt="Project Image 2" class="project-image">
+            </div>
+        </a>
+
+        <!-- Project Card 3 -->
+        <a href="#" class="project-card">
+            <div class="project-meta">
+                <span class="project-type">[Mobile app]</span>
+                <span class="project-date">6/20/24</span>
+            </div>
+            <h3 class="project-title">EchoStream Entertainment</h3>
+            <p class="project-description">UI/UX design</p>
+            <div class="project-image-container">
+                <!-- Using a placeholder image for demonstration -->
+                <img src="assets/image_3.avif" alt="Project Image 3" class="project-image">
+            </div>
+        </a>
+
+        <!-- Project Card 4 -->
+        <a href="#" class="project-card">
+            <div class="project-meta">
+                <span class="project-type">[Boutique E-commerce Store]</span>
+                <span class="project-date">7/13/24</span>
+            </div>
+            <h3 class="project-title">PulseTech Innovations</h3>
+            <p class="project-description">Web design & Web development</p>
+            <div class="project-image-container">
+                <!-- Using a placeholder image for demonstration -->
+                <img src="assets/image_4.jpg" alt="Project Image 4" class="project-image">
+            </div>
+        </a>
+
+        <!-- View All Projects Card -->
+        <a href="#" class="project-card view-all-card">
+            <div class="view-all-content">
+                <span class="view-all-text">View all projects</span>
+                <span class="view-all-arrow-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+            </div>
+        </a>
+    </div>
+</section>
+
+
+<!-- Creative tool -->
+<section class="creative-toolbox-section">
+    <div class="toolbox-content-wrapper">
+        <div class="toolbox-left-column">
+            <p class="toolbox-label"><span>&#x2022;</span> [02] &mdash; Tools & Skills</p>
+            <h2 class="toolbox-heading">My creative<br>toolbox</h2>
+        </div>
+        <div class="toolbox-right-column">
+            <!-- Tool Card 1: Framer -->
+            <div class="tool-card">
+                <div class="tool-header">
+                    <img src="assets/Framer.png" alt="Framer Icon" class="tool-icon framer-icon">
+                    <div class="tool-info">
+                        <h3 class="tool-name">Framer</h3>
+                        <p class="tool-description">No-code website builder</p>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                    <span class="progress-percentage">80%</span>
+                </div>
+            </div>
+
+            <!-- Tool Card 2: Figma -->
+            <div class="tool-card">
+                <div class="tool-header">
+                    <img src="assets/Figma.png" alt="Figma Icon" class="tool-icon figma-icon">
+                    <div class="tool-info">
+                        <h3 class="tool-name">Figma</h3>
+                        <p class="tool-description">Leading collaborative design tool</p>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                    <span class="progress-percentage">90%</span>
+                </div>
+            </div>
+
+            <!-- Tool Card 3: Adobe Photoshop -->
+            <div class="tool-card">
+                <div class="tool-header">
+                    <img src="assets/Adobe-photo-shop.png" alt="Photoshop Icon" class="tool-icon photoshop-icon">
+                    <div class="tool-info">
+                        <h3 class="tool-name">Adobe Photoshop</h3>
+                        <p class="tool-description">Raster graphics editor by Adobe</p>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                    <span class="progress-percentage">60%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Process -->
+<section class="process-section">
+    <!-- Top Sliding Categories -->
+    <div class="process-sliding-categories-container">
+        <div class="process-sliding-categories-track" id="processCategoriesTrack">
+            <div class="category-item">
+                <span class="category-text">Blog</span>
+                <span class="category-separator">*</span>
+            </div>
+            <div class="category-item">
+                <span class="category-text">Social network</span>
+                <span class="category-separator">*</span>
+            </div>
+            <div class="category-item">
+                <span class="category-text">E-commerce</span>
+                <span class="category-separator">*</span>
+            </div>
+            <div class="category-item">
+                <span class="category-text">Corporate website</span>
+                <span class="category-separator">*</span>
+            </div>
+            <!-- Duplicate content will be added by JS for seamless loop -->
+        </div>
+    </div>
+
+    <!-- Main Process Content -->
+    <div class="process-main-content">
+        <p class="process-label"><span>&#x2022;</span> [03] &mdash; Process</p>
+        <h2 class="process-heading">How it works</h2>
+
+        <div class="process-steps-container">
+            <!-- Process Step 1: Discovery -->
+            <div class="process-step">
+                <div class="step-header">
+                    <span class="step-button">Discovery</span>
+                    <span class="step-number">/01</span>
+                    <span class="step-duration">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        3-5 days
+                    </span>
+                </div>
+                <h3 class="step-title">We'll dive deep into your personal goals and long-term vision</h3>
+                <ul class="step-details-list">
+                    <li>
+                        <span class="detail-icon">*</span>
+                        <span class="detail-text"><strong>Initial Consultation:</strong> Understand the client's vision, goals, and target audience.</span>
+                    </li>
+                    <li>
+                        <span class="detail-icon">*</span>
+                        <span class="detail-text"><strong>Research:</strong> Analyze competitors and industry trends to gather insights.</span>
+                    </li>
+                    <li>
+                        <span class="detail-icon">*</span>
+                        <span class="detail-text"><strong>Define Scope:</strong> Set the project's objectives, deliverables, and timelines.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- You can add more process steps here following the same structure -->
+            <!--
+            <div class="process-step">
+                <div class="step-header">
+                    <span class="step-button">Design</span>
+                    <span class="step-number">/02</span>
+                    <span class="step-duration">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        7-10 days
+                    </span>
+                </div>
+                <h3 class="step-title">Crafting the visual and interactive experience</h3>
+                <ul class="step-details-list">
+                    <li>
+                        <span class="detail-icon">*</span>
+                        <span class="detail-text"><strong>Wireframing:</strong> Sketching initial layouts and user flows.</span>
+                    </li>
+                    <li>
+                        <span class="detail-icon">*</span>
+                        <span class="detail-text"><strong>Prototyping:</strong> Creating interactive mockups for user testing.</span>
+                    </li>
+                    <li>
+                        <span class="detail-icon">*</span>
+                        <span class="detail-text"><strong>UI Design:</strong> Developing the visual aesthetics and branding.</span>
+                    </li>
+                </ul>
+            </div>
+            -->
+        </div>
+    </div>
+    <!-- metic section -->
+     
+<div class="metrics-container">
+    <!-- Metric Card 1: Customer Satisfaction -->
+    <div class="metric-card green-bg">
+        <span class="metric-value">95+</span>
+        <span class="metric-label">Percent<br>customer satisfaction</span>
+        <!-- Optional: Add a subtle background shape/gradient if needed, handled by CSS -->
+    </div>
+
+    <!-- Metric Card 2: Years of Experience -->
+    <div class="metric-card dark-bg">
+        <span class="metric-value">10+</span>
+        <span class="metric-label">Years<br>of experience</span>
+        <!-- Optional: Add a subtle background shape/gradient if needed, handled by CSS -->
+    </div>
+
+    <!-- Metric Card 3: Projects Completed -->
+    <div class="metric-card white-bg">
+        <span class="metric-value">24+</span>
+        <span class="metric-label">Projects<br>completed</span>
+        <!-- Optional: Add a subtle background shape/gradient if needed, handled by CSS -->
+    </div>
+</div>
+</section>
+
+
+<!-- Faqs -->
+<section class="faq-section">
+    <div class="faq-content-wrapper">
+        <p class="faq-label"><span>&#x2022;</span> [04] &mdash; FAQ</p>
+        <h2 class="faq-heading">Got Questions?</h2>
+
+        <div class="faq-accordion">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item">
+                <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-answer-1">
+                    <span class="faq-number">01/</span>
+                    <span class="question-text">What is your typical project timeline?</span>
+                    <span class="faq-toggle-icon">+</span>
+                </div>
+                <div class="faq-answer" id="faq-answer-1" aria-hidden="true">
+                    <p>The timeline for a project typically ranges from 4 to 8 weeks, depending on the scope and complexity. After an initial consultation, I'll provide a detailed timeline with key milestones so you know what to expect at each stage.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+                <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-answer-2">
+                    <span class="faq-number">02/</span>
+                    <span class="question-text">Do you offer ongoing maintenance and support?</span>
+                    <span class="faq-toggle-icon">+</span>
+                </div>
+                <div class="faq-answer" id="faq-answer-2" aria-hidden="true">
+                    <p>Yes, I offer various post-launch maintenance and support packages tailored to your needs. This can include regular updates, security monitoring, content management, and technical assistance to ensure your website runs smoothly.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+                <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-answer-3">
+                    <span class="faq-number">03/</span>
+                    <span class="question-text">Can you work with existing brand guidelines?</span>
+                    <span class="faq-toggle-icon">+</span>
+                </div>
+                <div class="faq-answer" id="faq-answer-3" aria-hidden="true">
+                    <p>Absolutely! I prioritize integrating new designs seamlessly with your existing brand identity. Please provide your brand guidelines, including logos, color palettes, typography, and any specific visual elements, and I will ensure consistency.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item">
+                <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-answer-4">
+                    <span class="faq-number">04/</span>
+                    <span class="question-text">How do you handle revisions and feedback?</span>
+                    <span class="faq-toggle-icon">+</span>
+                </div>
+                <div class="faq-answer" id="faq-answer-4" aria-hidden="true">
+                    <p>My process includes dedicated revision rounds at key project milestones. I use collaborative tools to gather your feedback efficiently, ensuring an iterative approach that incorporates your input throughout the design and development phases.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="faq-item">
+                <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq-answer-5">
+                    <span class="faq-number">05/</span>
+                    <span class="question-text">How do I get started?</span>
+                    <span class="faq-toggle-icon">+</span>
+                </div>
+                <div class="faq-answer" id="faq-answer-5" aria-hidden="true">
+                    <p>Getting started is easy! Simply reach out via the contact form on my website or send an email to schedule an initial consultation. We'll discuss your project needs, goals, and how I can help bring your vision to life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Social-media -->
+<section class="social-media-section">
+    <div class="social-media-content-wrapper">
+        <p class="social-media-label"><span>&#x2022;</span> [05] &mdash; Contact me</p>
+        <h2 class="social-media-heading">I'm all over the internet</h2>
+
+        <div class="social-links-grid">
+            <!-- Social Link Card: Twitter/X -->
+            <a href="https://twitter.com/yourprofile" target="_blank" class="social-card">
+                <span class="social-name">Twitter/X</span>
+                <span class="social-icon-wrapper">
+                    <!-- Placeholder SVG for Twitter/X -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26L21.61 21.75H18.935L12.07 13.956L7.646 21.75H4.353L11.607 13.542L2.367 2.25H5.207L10.74 8.604L18.244 2.25ZM17.037 19.5H18.406L5.303 4.5H3.892L17.037 19.5Z" fill="currentColor"/>
+                    </svg>
+                </span>
+            </a>
+
+            <!-- Social Link Card: Instagram -->
+            <a href="https://instagram.com/yourprofile" target="_blank" class="social-card">
+                <span class="social-name">Instagram</span>
+                <span class="social-icon-wrapper">
+                    <!-- Placeholder SVG for Instagram -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 16a4 4 0 100-8 4 4 0 000 8z" fill="currentColor"/>
+                        <circle cx="18" cy="6" r="1" fill="currentColor"/>
+                    </svg>
+                </span>
+            </a>
+
+            <!-- Social Link Card: Dribbble -->
+            <a href="https://dribbble.com/yourprofile" target="_blank" class="social-card">
+                <span class="social-name">Dribbble</span>
+                <span class="social-icon-wrapper">
+                    <!-- Placeholder SVG for Dribbble -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 10C10.5 10 12 8 12 8L10 6C10 6 8 8.5 8 10.5C8 12.5 10 14 10 14L12 12C12 12 14 10 14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+            </a>
+
+            <!-- Social Link Card: Behance -->
+            <a href="https://behance.net/yourprofile" target="_blank" class="social-card">
+                <span class="social-name">Behance</span>
+                <span class="social-icon-wrapper">
+                    <!-- Placeholder SVG for Behance -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9 10H15V14H9V10Z" fill="currentColor"/>
+                    </svg>
+                </span>
+            </a>
+
+            <!-- Get in touch Card -->
+            <a href="mailto:your@email.com" class="social-card get-in-touch-card">
+                <span class="get-in-touch-text">Get in touch</span>
+                <span class="get-in-touch-arrow-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Get-in-touch -->
+<section class="get-in-touch-section">
+    <!-- Top Bar with Status and Back to Top -->
+    <div class="get-in-touch-top-bar">
+        <span class="freelance-status">
+            <span class="status-dot">&#x2022;</span> Available for freelance
+        </span>
+        <a href="#top" class="back-to-top">
+            Back to top
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 19V5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5 12L12 5L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </div>
+
+    <div class="get-in-touch-content-wrapper">
+        <!-- Left Column: Main Heading -->
+        <div class="get-in-touch-left-column">
+            <h2 class="get-in-touch-heading">Let's create<br>something<br>extraordinary<br>together.</h2>
+            <p class="impact-text">Let's make an impact</p>
+        </div>
+
+        <!-- Right Column: Profile and Contact -->
+        <div class="get-in-touch-right-column">
+            <div class="profile-card2"> <!-- RENAMED CLASS HERE -->
+                <img src="assets/profile.jpeg" alt="Nimeth C." class="profile-image">
+                <div class="profile-info2"> <!-- RENAMED CLASS HERE -->
+                    <h3 class="profile-name">Nimeth C.</h3>
+                    <p class="profile-title">Web-designer, developer</p>
+                    <div class="profile-social-icons">
+                        <a href="#" target="_blank" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26L21.61 21.75H18.935L12.07 13.956L7.646 21.75H4.353L11.607 13.542L2.367 2.25H5.207L10.74 8.604L18.244 2.25ZM17.037 19.5H18.406L5.303 4.5H3.892L17.037 19.5Z" fill="currentColor"/></svg></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/><path d="M12 16a4 4 0 100-8 4 4 0 000 8z" fill="currentColor"/><circle cx="18" cy="6" r="1" fill="currentColor"/></svg></a>
+                        <a href="#" target="_blank" aria-label="Dribbble"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 10C10.5 10 12 8 12 8L10 6C10 6 8 8.5 8 10.5C8 12.5 10 14 10 14L12 12C12 12 14 10 14 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="contact-me-label">Contact me</p>
+            <a href="mailto:hello@andrew.design" class="contact-email">nimethsiir@gmail.com</a>
+            <p class="contact-tagline">Hit me up if you're looking for a <span class="highlight">fast, reliable web-designer</span> who can bring your vision to life</p>
+
+            <a href="#" class="book-call-button">
+                Book a call
+                <span class="book-call-arrow-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<section class="footer-section">
+    <div class="footer-content-wrapper">
+        <!-- Column 1: Follow me on other channels -->
+        <div class="footer-column follow-channels">
+            <h3 class="footer-column-heading">Follow me on other channels</h3>
+            <div class="social-links-footer">
+                <a href="#" target="_blank" class="footer-social-link">
+                    <span class="footer-social-icon-wrapper">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.8 7.36c0.1-0.9 0.1-1.8 0-2.7c-0.1-0.9-0.4-1.7-0.9-2.5c-0.5-0.8-1.2-1.4-2-1.8c-0.8-0.4-1.7-0.6-2.6-0.6c-1.8 0-3.5 0.5-5 1.5c-1.5 1-2.7 2.3-3.6 3.9c-0.9 1.6-1.3 3.3-1.3 5c0 1.7 0.4 3.4 1.3 5c0.9 1.6 2.1 2.9 3.6 3.9c1.5 1 3.2 1.5 5 1.5c0.9 0 1.8-0.1 2.6-0.3c0.8-0.2 1.6-0.5 2.3-0.9c0.7-0.4 1.4-0.9 1.9-1.5c0.6-0.6 1-1.2 1.3-1.9c0.3-0.7 0.5-1.5 0.6-2.3c0.1-0.8 0.1-1.6 0-2.4c0-0.8-0.1-1.6-0.3-2.4z" fill="currentColor"/>
+                            <path d="M10 17V7L18 12L10 17Z" fill="#fff"/>
+                        </svg>
+                    </span>
+                    Youtube
+                    <span class="footer-arrow-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </a>
+                <a href="#" target="_blank" class="footer-social-link">
+                    <span class="footer-social-icon-wrapper">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26L21.61 21.75H18.935L12.07 13.956L7.646 21.75H4.353L11.607 13.542L2.367 2.25H5.207L10.74 8.604L18.244 2.25ZM17.037 19.5H18.406L5.303 4.5H3.892L17.037 19.5Z" fill="currentColor"/>
+                        </svg>
+                    </span>
+                    Twitter/X
+                    <span class="footer-arrow-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </a>
+                <a href="#" target="_blank" class="footer-social-link">
+                    <span class="footer-social-icon-wrapper">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.00001 2.00001H22V22H2.00001V2.00001ZM8.00001 10V18H5V10H8.00001ZM6.50001 7.5C7.32843 7.5 8.00001 6.82843 8.00001 6C8.00001 5.17157 7.32843 4.5 6.50001 4.5C5.67158 4.5 5.00001 5.17157 5.00001 6C5.00001 6.82843 5.67158 7.5 6.50001 7.5ZM19 14C19 12.5 17.5 11 16 11C14.5 11 13 12.5 13 14V18H10V10H13V11C13.5 10.5 14.5 9.5 16 9.5C18 9.5 19 10.5 19 14V18Z" fill="currentColor"/>
+                        </svg>
+                    </span>
+                    LinkedIn
+                    <span class="footer-arrow-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7 7H17V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Column 2: Navigation -->
+        <div class="footer-column">
+            <h3 class="footer-column-heading">Navigation</h3>
+            <ul class="footer-links-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="about.html">About me</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Case studies -->
+        <div class="footer-column">
+            <h3 class="footer-column-heading">Case studies</h3>
+            <ul class="footer-links-list">
+                <li><a href="#">App Project</a></li>
+                <li><a href="#">App Project 2</a></li>
+                <li><a href="#">Desktop Project</a></li>
+                <li><a href="#">Desktop Project 2</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bottom Bar: Copyright and Policy -->
+    <div class="footer-bottom-bar">
+        <p class="copyright">&copy; 2025 &mdash; Nimeth C.@nimeth</p>
+        <div class="policy-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
